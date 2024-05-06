@@ -16,13 +16,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        'zap-orange': '#FF4F00',
-        'earth': '#201515',
-        'cream': '#FFF3E6',
-        'moss': '#1F3121',
-        'lavender': '#C1B7FF',
-        'night': '#2B2358',
-        'almost White': '#FFFDF9',
+        'zap-orange': '#FF4F00', // Couleur orange
+        'earth': '#201515', // Couleur brune
+        'cream': '#FFF3E6', // Couleur beige clair
+        'moss': '#1F3121', // Couleur foncé verte
+        'lavender': '#C1B7FF', // Couleur violette
+        'night': '#2B2358', // Couleur bleu foncé
+        'almost White': '#FFFDF9', // Couleur blanche
       },
       fontFamily: {
         'degular': ['Degular', 'sans-serif']
