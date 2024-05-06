@@ -61,7 +61,7 @@ const BusinessInfo = ({ business }) => {
         {/* Affiche les informations de l'entreprise sélectionnée */}
         <div className="md:w-1/2 text-left p-4 bg-white rounded-md shadow overflow-x-auto">
           <h3 className="text-lg font-medium mb-2">Liens utiles Google Business Profile pour: <span className="text-zap-orange">{business.name}</span></h3>
-          <p className="text-sm mb-4 text-gray-600">{business.address}</p>
+          <p className="text-sm mb-4 text-lavender">{business.address}</p>
           {/* Affiche les champs d'URL pour les liens d'avis Google et les boutons pour copier ces liens dans le presse-papiers */}
           <div className="space-y-2">
             <div>
