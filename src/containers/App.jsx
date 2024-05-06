@@ -12,8 +12,7 @@ const App = () => {
         <h1
           className="text-4xl sm font-bold mb-4"
           style={{ fontFamily: "Degular", fontWeight: "bold" }}
-        >GÉNÉRATEUR DE LIENS D'ÉVALUATION GOOGLE
-        </h1>
+        >Générateur de liens d'évaluations Google</h1>
         <p
           className="mt-2 text-base sm mb-6"
           style={{ fontFamily: "Degular", fontStyle: "Regular" }}
