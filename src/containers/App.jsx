@@ -19,8 +19,10 @@ const App = () => {
           className="mt-2 text-base sm mb-6"
           style={{ fontFamily: "Degular", fontStyle: "Regular" }}
         >
-          Outil gratuit : partagez facilement votre fiche Google Business avec
-          vos clients et améliorez votre référencement local en Suisse Romande.
+          Utilisez notre outil gratuit pour générer votre lien d'évaluation
+          Google unique, puis partagez l'URL ou le code QR avec vos clients pour
+          augmenter le nombre d'évaluations votre fiche Google en Suisse Romande
+          !
         </p>
         <FormHandler />
       </div>
