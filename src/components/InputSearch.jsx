@@ -1,0 +1,49 @@
+// InputSearch.jsx
+// Le composant InputSearch affiche le champ de recherche pour l'utilisateur.
+
+import React from "react";
+
+const InputSearch = ({ onSelect, searchTerm, setSearchTerm, showRemark }) => {
+  /* 
+  Props :
+  - onSelect : fonction callback à appeler lorsque l'utilisateur soumet le formulaire
+  - searchTerm : la valeur actuelle du champ de recherche
+  - setSearchTerm : fonction pour mettre à jour la valeur du champ de recherche
+  - showRemark : boolean pour afficher ou non la remarque
+  */
+  const handleChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  return (
+    <div className="relative search-container">
+      {/* <label htmlFor="searchInput" className="block text-lg font-medium text-gray-700 mb-2">
+        Entrer le nom et l'adresse de votre entreprise
+      </label> */}
+
+      {/* Affiche le champ de recherche */}
+      <input
+        type="text"
+        id="searchInput"
+        value={searchTerm}
+        onChange={handleChange}
+        className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-inner focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        placeholder="Commencez à taper le nom et l'adresse de votre entreprise..."
+        required
+      />
+      {/* Affiche la remarque si showRemark est true */}
+      {showRemark && (
+        <div className="mt-2 py-4 text-sm text-gray-600">
+          Remarque : si l'entreprise a masqué son adresse dans sa fiche Google
+          Business Profile, vous ne pourrez pas générer de liens et
+          d'identifiants Google à l'aide de cet outil. Nous utilisons l'API
+          Google Places pour localiser l'entreprise et cette API n'inclut pas
+          les entreprises dont l'adresse est cachée.
+        </div>
+      )}
+    </div>
+  );
+};
+
+// Exporte le composant InputSearch pour être utilisé dans d'autres fichiers.
+export default InputSearch;

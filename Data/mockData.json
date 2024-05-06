@@ -1,0 +1,172 @@
+{
+   "results":[
+      {
+         "name":"Café de Genève",
+         "address":"Rue du Lac 12, 1200 Genève",
+         "place_id":"ChIJN1t_tDeuEmsRUsoyG83frY4",
+         "rating":4.5,
+         "user_ratings_total":196,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJN1t_tDeuEmsRUsoyG83frY4"
+      },
+      {
+         "name":"Lausanne Boulangerie",
+         "address":"Avenue d'Ouchy 49, 1006 Lausanne",
+         "place_id":"ChIJZ6Vl1HRwjEcRaEOI_YKbH2M",
+         "rating":4.2,
+         "user_ratings_total":127,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJZ6Vl1HRwjEcRaEOI_YKbH2M"
+      },
+      {
+         "name":"Montreux Jazz Café",
+         "address":"Grand Rue 90, 1820 Montreux",
+         "place_id":"ChIJuZqI5K5pjEcRkhSZP3k5K64",
+         "rating":4.7,
+         "user_ratings_total":264,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJuZqI5K5pjEcRkhSZP3k5K64"
+      },
+      {
+         "name":"Bistro de la Gare",
+         "address":"Place de la Gare 1, 1920 Martigny",
+         "place_id":"ChIJYXCqgBZCjEcR0W6-DYkD9aE",
+         "rating":4.3,
+         "user_ratings_total":35,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJYXCqgBZCjEcR0W6-DYkD9aE"
+      },
+      {
+         "name":"Fribourg Chocolaterie",
+         "address":"Rue de Romont 35, 1700 Fribourg",
+         "place_id":"ChIJXZv7T5dGjkcR5w8gNK3XVv8",
+         "rating":4.6,
+         "user_ratings_total":48,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJXZv7T5dGjkcR5w8gNK3XVv8"
+      },
+      {
+         "name":"Neuchâtel Optique",
+         "address":"Rue du Seyon 2, 2000 Neuchâtel",
+         "place_id":"ChIJ-0697K1qwkcRUjm674Mh9vA",
+         "rating":4.5,
+         "user_ratings_total":22,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJ-0697K1qwkcRUjm674Mh9vA"
+      },
+      {
+         "name":"Yverdon Restaurant",
+         "address":"Grand-Rue 49, 1400 Yverdon-les-Bains",
+         "place_id":"ChIJk8yG2VXZjEcR5H7cA48cLzQ",
+         "rating":4.2,
+         "user_ratings_total":30,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJk8yG2VXZjEcR5H7cA48cLzQ"
+      },
+      {
+         "name":"Sion Bijouterie",
+         "address":"Rue du Grand-Pont 27, 1950 Sion",
+         "place_id":"ChIJ7fv5O99GjkcR0VqDYZ6185k",
+         "rating":4.7,
+         "user_ratings_total":55,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJ7fv5O99GjkcR0VqDYZ6185k"
+      },
+      {
+         "name":"Vevey Librairie",
+         "address":"Rue du Conseil 9, 1800 Vevey",
+         "place_id":"ChIJQX1lTmZajEcRyRJB8NZyJmQ",
+         "rating":4.4,
+         "user_ratings_total":28,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJQX1lTmZajEcRyRJB8NZyJmQ"
+      },
+      {
+         "name":"Nyon Coiffure",
+         "address":"Rue de la Gare 18, 1260 Nyon",
+         "place_id":"ChIJy4K8UZBZjEcRJW9EJ1yWjvU",
+         "rating":4.6,
+         "user_ratings_total":33,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJy4K8UZBZjEcRJW9EJ1yWjvU"
+      },
+      {
+         "name":"Lausanne Pharmacie",
+         "address":"Avenue du Théâtre 1, 1005 Lausanne",
+         "place_id":"ChIJq07KyqNwjEcRt54",
+         "rating":4.5,
+         "user_ratings_total":42,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJq07KyqNwjEcRt54NjD04Yv4"
+      },
+      {
+         "name":"Genève Horlogerie",
+         "address":"Rue du Rhône 48, 1204 Genève",
+         "place_id":"ChIJ4fvhI1euEmsRdEyJYZj2X2o",
+         "rating":4.7,
+         "user_ratings_total":53,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJ4fvhI1euEmsRdEyJYZj2X2o"
+      },
+      {
+         "name":"Bienne Pâtisserie",
+         "address":"Nidaugasse 55, 2502 Biel/Bienne",
+         "place_id":"ChIJ38lE1lQahkcR2nHJKQ55kzE",
+         "rating":4.3,
+         "user_ratings_total":26,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJ38lE1lQahkcR2nHJKQ55kzE"
+      },
+      {
+         "name":"Delémont Brasserie",
+         "address":"Rue de la Poste 11, 2800 Delémont",
+         "place_id":"ChIJvXl02X73jkcRyzVjJyLK59k",
+         "rating":4.4,
+         "user_ratings_total":39,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJvXl02X73jkcRyzVjJyLK59k"
+      },
+      {
+         "name":"Porrentruy Épicerie",
+         "address":"Rue des Malvoisins 1, 2900 Porrentruy",
+         "place_id":"ChIJG9U504v5jkcRiFo2v9N1_wQ",
+         "rating":4.6,
+         "user_ratings_total":45,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJG9U504v5jkcRiFo2v9N1_wQ"
+      },
+      {
+         "name":"Bullet Magasin de Sport",
+         "address":"Route de la Vallée de Joux 12, 1347 Le Sentier",
+         "place_id":"ChIJ8YQv03RajEcRdC3jxrJ0qGw",
+         "rating":4.2,
+         "user_ratings_total":21,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJ8YQv03RajEcRdC3jxrJ0qGw"
+      },
+      {
+         "name":"Morges Clinique",
+         "address":"Rue de la Gare 3, 1110 Morges",
+         "place_id":"ChIJM99nz15ZjEcR8xZk8jqZ81E",
+         "rating":4.5,
+         "user_ratings_total":37,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJM99nz15ZjEcR8xZk8jqZ81E"
+      },
+      {
+         "name":"Vaud Garage",
+         "address":"Route de Lausanne 2, 1028 Préverenges",
+         "place_id":"ChIJLx8zL3ZwjEcR54z3JvRKTzI",
+         "rating":4.3,
+         "user_ratings_total":29,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJLx8zL3ZwjEcR54z3JvRKTzI"
+      },
+      {
+         "name":"Valais Cave à Vins",
+         "address":"Rue du Bourg 12, 1950 Sion",
+         "place_id":"ChIJ0d4cX99GjkcRz98",
+         "rating":4.7,
+         "user_ratings_total":50,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJ0d4cX99GjkcRz98jrZKJpjE"
+      },
+      {
+         "name":"Fribourg Fromagerie",
+         "address":"Rue de Lausanne 61, 1700 Fribourg",
+         "place_id":"ChIJj1w4Q5dGjkcRl3-m7Cz_J7Q",
+         "rating":4.6,
+         "user_ratings_total":40,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJj1w4Q5dGjkcRl3-m7Cz_J7Q"
+      },
+      {
+         "name":"Jura Atelier de Réparation",
+         "address":"Rue Centrale 27, 2852 Courtételle",
+         "place_id":"ChIJ253B3Gz3jkcR385Yv734Z14",
+         "rating":4.4,
+         "user_ratings_total":32,
+         "url":"https://www.google.com/maps/place/?q=place_id:ChIJ253B3Gz3jkcR385Yv734Z14"
+      }
+   ]
+}
