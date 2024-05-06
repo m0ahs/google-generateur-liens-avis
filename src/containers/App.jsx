@@ -12,17 +12,15 @@ const App = () => {
         <h1
           className="text-4xl sm font-bold mb-4"
           style={{ fontFamily: "Degular", fontWeight: "bold" }}
-        >
-          Générateur de liens d'avis Google
+        >GÉNÉRATEUR DE LIENS D'ÉVALUATION GOOGLE
         </h1>
         <p
           className="mt-2 text-base sm mb-6"
           style={{ fontFamily: "Degular", fontStyle: "Regular" }}
         >
-          Utilisez notre outil gratuit pour générer votre lien d'évaluation
-          Google unique, puis partagez l'URL ou le code QR avec vos clients pour
-          augmenter le nombre d'évaluations votre fiche Google en Suisse Romande
-          !
+          Obtenez plus d'avis Google en Suisse Romande avec notre générateur de
+          lien d'évaluation gratuit. Partagez l'URL ou le QR code avec vos
+          clients.
         </p>
         <FormHandler />
       </div>

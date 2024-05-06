@@ -17,9 +17,12 @@ const InputSearch = ({ onSelect, searchTerm, setSearchTerm, showRemark }) => {
 
   return (
     <div className="relative search-container">
-      {/* <label htmlFor="searchInput" className="block text-lg font-medium text-gray-700 mb-2">
-        Entrer le nom et l'adresse de votre entreprise
-      </label> */}
+      <label
+        htmlFor="searchInput"
+        className="block text-lg font-medium text-gray-700 mb-2"
+      >
+        Obtenez votre lien d'évaluation Google
+      </label>
 
       {/* Affiche le champ de recherche */}
       <input
