@@ -37,11 +37,7 @@ const InputSearch = ({ onSelect, searchTerm, setSearchTerm, showRemark }) => {
       {/* Affiche la remarque si showRemark est true */}
       {showRemark && (
         <div className="mt-2 py-4 text-sm text-gray-600">
-          Remarque : si l'entreprise a masqué son adresse dans sa fiche Google
-          Business Profile, vous ne pourrez pas générer de liens et
-          d'identifiants Google à l'aide de cet outil. Nous utilisons l'API
-          Google Places pour localiser l'entreprise et cette API n'inclut pas
-          les entreprises dont l'adresse est cachée.
+          Remarque : Vous ne trouvez pas votre entreprise ? <a className="text-lavender" href="#">Essayez ceci !</a>
         </div>
       )}
     </div>
