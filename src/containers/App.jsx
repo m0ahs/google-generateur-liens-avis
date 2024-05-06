@@ -2,7 +2,6 @@
 import React from "react";
 import "/src/App.css";
 import FormHandler from "/src/FormHandler.jsx";
-import { SpeedInsights } from '@vercel/speed-insights/next';
 
 // Le composant principal de l'application.
 // Affiche le titre, la description et le formulaire de recherche.
@@ -24,7 +23,6 @@ const App = () => {
           vos clients et améliorez votre référencement local en Suisse Romande.
         </p>
         <FormHandler />
-        <SpeedInsights />
       </div>
     </div>
   );
