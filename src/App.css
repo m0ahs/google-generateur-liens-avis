@@ -89,7 +89,6 @@ body {
 }
 
 google-review-image {
-  width: 100%;
   max-width: 100px;
-  margin-bottom: 25px;
+  margin-bottom: 250px;
 }
