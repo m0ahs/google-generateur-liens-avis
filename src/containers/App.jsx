@@ -32,14 +32,24 @@ function App() {
           clients.
         </p>
         <FormHandler toggleHelpSection={toggleHelpSection} />
-        <CSSTransition
-          in={showHelpSection}
-          timeout={300}
-          classNames="help-section"
-          unmountOnExit
+        <div
+          style={{
+            overflow: "hidden",
+            maxHeight: showHelpSection ? "500px" : "0",
+            transition: "max-height 0.3s ease",
+          }}
         >
-          <HelpSection />
-        </CSSTransition>
+          <CSSTransition
+            in={showHelpSection}
+            timeout={300}
+            classNames="help-section"
+            unmountOnExit
+            onEnter={() => setShowHelpSection(true)}
+            onExited={() => setShowHelpSection(false)}
+          >
+            <HelpSection />
+          </CSSTransition>
+        </div>
       </div>
     </div>
   );
