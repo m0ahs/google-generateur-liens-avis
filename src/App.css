@@ -49,6 +49,8 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  max-height: 100%;
+  min-width: 100%;
   max-width: 100%;
   padding: 2rem;
   box-sizing: border-box;
@@ -61,7 +63,7 @@ body {
 .help-section-enter-active {
   visibility: visible;
   opacity: 1;
-  transition: opacity 300ms, visibility 0ms 300ms;
+  transition: opacity 300ms, visibility 0ms 200ms;
 }
 .help-section-exit {
   visibility: visible;
@@ -70,16 +72,18 @@ body {
 .help-section-exit-active {
   visibility: hidden;
   opacity: 0;
-  transition: opacity 300ms, visibility 0ms 300ms;
+  transition: opacity 300ms, visibility 0ms 200ms;
 }
 
 .search-container {
   max-width: 75vh;
   margin: 0 auto;
 }
+
 .info-container {
   margin-top: 2rem;
 }
+
 .business-info-container {
   min-width: 60vw;
   max-width: 100%;
