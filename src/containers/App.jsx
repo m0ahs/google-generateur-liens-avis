@@ -18,7 +18,6 @@ function App() {
         <div className="md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
           <img src="../../google-avis-client-suisse-romande-marketlocal.png" 
             alt="Google avis client Suisse Romande Marketlocal.ch" 
-            className="w-full max-w-sm"
             id="google-review-image" />
         </div>
         <h1 className="text-4xl sm:text-4xl md:text-5xl font-bold mb-4">
