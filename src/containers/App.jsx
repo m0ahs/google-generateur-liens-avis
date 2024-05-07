@@ -17,7 +17,7 @@ const App = () => {
           Générateur de liens d'évaluations Google
         </h1>
         <p
-          className="mt-2 text-lg mb-6"
+          className="mt-2 px-6 md:px-10 lg:px-12 text-lg mb-6"
           style={{ fontFamily: "Degular", fontStyle: "Regular" }}
         >
           Obtenez plus d'avis Google en Suisse Romande avec notre générateur de
