@@ -100,3 +100,8 @@ body {
   margin: 50px auto;
 }
 
+.rotate-down {
+  transform: rotate(90deg);
+}
+
+
