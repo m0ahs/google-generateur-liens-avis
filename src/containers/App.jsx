@@ -11,7 +11,7 @@ const App = () => {
     <div className="min-h-screen flex justify-center items-center bg-cream mt-8 mb-8">
       <div className="text-center px-6 sm:max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto">
         <h1
-          className="text-5xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4"
+          className="text-5xl sm:text-2xl md:text-3xl lg:text-5xl font-bold mb-4"
           style={{ fontFamily: "Degular", fontWeight: "bold" }}
         >
           Générateur de liens d'évaluations Google
