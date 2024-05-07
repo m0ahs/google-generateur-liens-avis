@@ -13,7 +13,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-cream mt-8 mb-8">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-cream mt-8 mb-8">
       <div className="text-center px-4 md:px-8 lg:px-12 xl:max-w-5xl mx-auto">
         <h1
           className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4"
@@ -31,19 +31,22 @@ function App() {
           <span className="font-semibold"> QR code</span> directement avec vos
           clients.
         </p>
+      </div>
+      <div className="flex-grow w-full max-w-5xl mx-auto">
         <FormHandler toggleHelpSection={toggleHelpSection} />
-        <div
-          className={`transition-opacity duration-300 overflow-hidden ${showHelpSection ? "max-h-screen" : "max-h-0"} ${showHelpSection && "sm:scrollable-container"}`}
+      </div>
+      <div
+        className="transition-opacity duration-300 overflow-hidden"
+        style={{ maxHeight: showHelpSection ? "1000px" : "0" }}
+      >
+        <CSSTransition
+          in={showHelpSection}
+          timeout={300}
+          classNames="help-section"
+          unmountOnExit
         >
-          <CSSTransition
-            in={showHelpSection}
-            timeout={300}
-            classNames="help-section"
-            unmountOnExit
-          >
-            <HelpSection />
-          </CSSTransition>
-        </div>
+          <HelpSection />
+        </CSSTransition>
       </div>
     </div>
   );
