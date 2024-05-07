@@ -1,14 +1,12 @@
 // FormHandler.jsx
 // Le composant FormHandler gère le formulaire de recherche et affiche les résultats.
 
-// Définit les états pour la valeur du champ de recherche, les résultats de la recherche, l'entreprise sélectionnée, le chargement et l'animation de chargement.
 import React, { useState, useEffect } from "react";
 import mockData from "../Data/mockData.json";
 import InputSearch from "./components/InputSearch";
 import Results from "./components/Results";
 import BusinessInfo from "./components/BusinessInfo";
 
-// Fonction pour filtrer les résultats de la recherche en fonction de la valeur du champ de recherche.
 const FormHandler = ({ toggleHelpSection }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [results, setResults] = useState([]);
@@ -17,7 +15,6 @@ const FormHandler = ({ toggleHelpSection }) => {
   const [businessClicked, setBusinessClicked] = useState(false);
   const [loadingAnimation, setLoadingAnimation] = useState(false);
 
-  // Fonction pour mettre à jour l'entreprise sélectionnée et afficher l'animation de chargement.
   const handleSelect = async (searchTerm) => {
     setLoading(true);
     setTimeout(() => {
@@ -31,7 +28,6 @@ const FormHandler = ({ toggleHelpSection }) => {
     }, 500);
   };
 
-  // Effet pour filtrer les résultats de la recherche lorsque la valeur du champ de recherche change.
   const handleBusinessSelect = (business) => {
     setBusinessClicked(true);
     setLoadingAnimation(true);

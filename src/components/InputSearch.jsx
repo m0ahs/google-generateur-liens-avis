@@ -10,15 +10,14 @@ const InputSearch = ({
   showRemark,
   toggleHelpSection,
 }) => {
-  /* 
-  Props :
-  - onSelect : fonction callback à appeler lorsque l'utilisateur soumet le formulaire
-  - searchTerm : la valeur actuelle du champ de recherche
-  - setSearchTerm : fonction pour mettre à jour la valeur du champ de recherche
-  - showRemark : boolean pour afficher ou non la remarque
-  */
   const handleChange = (event) => {
     setSearchTerm(event.target.value);
+  };
+
+  // Prévenir le comportement par défaut du lien et basculer la section d'aide
+  const handleToggleClick = (event) => {
+    event.preventDefault();
+    toggleHelpSection();
   };
 
   return (
@@ -29,8 +28,6 @@ const InputSearch = ({
       >
         Obtenez votre lien d'évaluation Google
       </label>
-
-      {/* Affiche le champ de recherche */}
       <input
         type="text"
         id="searchInput"
@@ -40,14 +37,13 @@ const InputSearch = ({
         placeholder="Commencez à taper le nom et l'adresse de votre entreprise..."
         required
       />
-      {/* Affiche la remarque si showRemark est true */}
       {showRemark && (
         <div className="mt-2 py-4 text-base text-gray-600">
           Vous ne trouvez pas votre entreprise ?{" "}
           <a
             href="#"
             className="text-lavender font-semibold hover:underline"
-            onClick={toggleHelpSection}
+            onClick={handleToggleClick}
           >
             Essayez ceci !
           </a>
@@ -57,5 +53,4 @@ const InputSearch = ({
   );
 };
 
-// Exporte le composant InputSearch pour être utilisé dans d'autres fichiers.
 export default InputSearch;

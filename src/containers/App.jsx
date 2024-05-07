@@ -4,8 +4,6 @@ import "../App.css";
 import FormHandler from "../FormHandler";
 import HelpSection from "../components/HelpSection";
 
-// Le composant principal de l'application.
-// Affiche le titre, la description et le formulaire de recherche.
 function App() {
   const [showHelpSection, setShowHelpSection] = useState(false);
 
@@ -32,12 +30,11 @@ function App() {
           <span className="font-semibold"> QR code</span> directement avec vos
           clients.
         </p>
-        <FormHandler />
+        <FormHandler toggleHelpSection={toggleHelpSection} />
         {showHelpSection && <HelpSection />}
       </div>
     </div>
   );
 }
 
-// Exporte le composant App pour être utilisé dans d'autres fichiers.
 export default App;
