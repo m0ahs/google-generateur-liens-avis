@@ -1,7 +1,8 @@
 // App.jsx
 import React from "react";
 import "/src/App.css";
-import FormHandler from "/src/FormHandler.jsx";
+import FormHandler from "/src/FormHandler";
+import HelpSection from './components/HelpSection'
 
 // Le composant principal de l'application.
 // Affiche le titre, la description et le formulaire de recherche.
@@ -25,6 +26,7 @@ const App = () => {
           <span className="font-semibold">QR code</span> avec vos clients.
         </p>
         <FormHandler />
+        <HelpSection />
       </div>
     </div>
   );
