@@ -16,7 +16,7 @@ function App() {
     <div className="flex flex-col justify-center items-center min-h-screen bg-cream py-8">
       <div className="w-full max-w-5xl px-4 md:px-8 lg:px-12 mx-auto text-center overflow-hidden">
         <div className="md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
-          <img src="../../google-avis-client-suisse-romande-marketlocal.svg" 
+          <img src="../../google-avis-client-suisse-romande-marketlocal.png" 
             alt="Google avis client Suisse Romande Marketlocal.ch" 
             className="w-full max-w-sm"
             id="google-review-image" />
