@@ -57,6 +57,10 @@ body {
   margin-top: 25px;
 }
 
+.help-section-container {
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
 .help-section-enter {
   opacity: 0;
   visibility: hidden;
@@ -64,7 +68,6 @@ body {
 .help-section-enter-active {
   opacity: 1;
   visibility: visible;
-  transition: opacity 300ms, visibility 0ms 300ms;
 }
 .help-section-exit {
   opacity: 1;
@@ -73,8 +76,8 @@ body {
 .help-section-exit-active {
   opacity: 0;
   visibility: hidden;
-  transition: opacity 300ms, visibility 0ms 300ms;
 }
+
 
 
 .search-container {
