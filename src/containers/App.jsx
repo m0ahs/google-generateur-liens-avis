@@ -1,12 +1,18 @@
 // App.jsx
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
 import FormHandler from "../FormHandler";
 import HelpSection from "../components/HelpSection";
 
 // Le composant principal de l'application.
 // Affiche le titre, la description et le formulaire de recherche.
-const App = () => {
+function App() {
+  const [showHelpSection, setShowHelpSection] = useState(false);
+
+  const toggleHelpSection = () => {
+    setShowHelpSection((prev) => !prev);
+  };
+
   return (
     <div className="min-h-screen flex justify-center items-center bg-cream mt-8 mb-8">
       <div className="text-center px-4 md:px-8 lg:px-12 xl:max-w-5xl mx-auto">
@@ -27,11 +33,11 @@ const App = () => {
           clients.
         </p>
         <FormHandler />
-        <HelpSection />
+        {showHelpSection && <HelpSection />}
       </div>
     </div>
   );
-};
+}
 
 // Exporte le composant App pour être utilisé dans d'autres fichiers.
 export default App;

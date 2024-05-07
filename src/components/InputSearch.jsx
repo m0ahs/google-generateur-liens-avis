@@ -3,7 +3,13 @@
 
 import React from "react";
 
-const InputSearch = ({ onSelect, searchTerm, setSearchTerm, showRemark }) => {
+const InputSearch = ({
+  onSelect,
+  searchTerm,
+  setSearchTerm,
+  showRemark,
+  toggleHelpSection,
+}) => {
   /* 
   Props :
   - onSelect : fonction callback à appeler lorsque l'utilisateur soumet le formulaire
@@ -38,7 +44,11 @@ const InputSearch = ({ onSelect, searchTerm, setSearchTerm, showRemark }) => {
       {showRemark && (
         <div className="mt-2 py-4 text-base text-gray-600">
           Vous ne trouvez pas votre entreprise ?{" "}
-          <a href="#" className="text-lavender font-semibold hover:underline">
+          <a
+            href="#"
+            className="text-lavender font-semibold hover:underline"
+            onClick={toggleHelpSection}
+          >
             Essayez ceci !
           </a>
         </div>
