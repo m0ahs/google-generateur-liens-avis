@@ -44,7 +44,7 @@ const BusinessInfo = ({ business }) => {
   return (
     <div className="flex justify-center items-center overflow-y-auto">
       <div className="flex flex-col md:flex-row business-info-container max-w-2xl">
-        <div className="md:w-1/2 text-left p-4 bg-white rounded-md shadow overflow-x-auto">
+        <div className="md:w-1/2 text-left p-4 bg-white rounded-md shadow-zap-orange overflow-x-auto">
           <h3 className="text-lg font-medium mb-2">
             Liens utiles Google Business Profile pour:{" "}
             <span className="text-zap-orange">{business.name}</span>
@@ -143,7 +143,7 @@ const BusinessInfo = ({ business }) => {
             </div>
           </div>
         </div>
-        <div className="md:w-1/2 mt-4 md:mt-0 md:ml-4">
+        <div className="md:w-1/2 shadow-zap-orange mt-4 md:mt-0 md:ml-4">
           <img
             src="https://c.clc2l.com/c/screenshot/d/google-maps-transports-en-commun-6130c408a91b6040045698.jpg"
             alt="Google Maps"
