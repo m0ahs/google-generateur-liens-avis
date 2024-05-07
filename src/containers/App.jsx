@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen bg-cream py-8">
       <div className="w-full max-w-5xl px-4 md:px-8 lg:px-12 mx-auto text-center overflow-hidden">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+        <h1 className="text-4xl sm:text-4xl md:text-5xl font-bold mb-4">
           Générateur de liens d'évaluations Google
         </h1>
         <p className="text-lg px-4 md:px-8 lg:px-12 mb-6">
