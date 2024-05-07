@@ -23,7 +23,8 @@ const App = () => {
           Obtenez plus d'avis Google en Suisse Romande avec notre générateur de
           lien d'évaluation gratuit. Partagez{" "}
           <span className="font-semibold">l'URL</span> ou le
-          <span className="font-semibold">QR code</span> avec vos clients.
+          <span className="font-semibold">QR code</span> directement avec vos
+          clients.
         </p>
         <FormHandler />
         <HelpSection />
