@@ -1,5 +1,6 @@
 // App.jsx
 import React, { useState } from "react";
+import { CSSTransition } from "react-transition-group";
 import "../App.css";
 import FormHandler from "../FormHandler";
 import HelpSection from "../components/HelpSection";
@@ -31,7 +32,14 @@ function App() {
           clients.
         </p>
         <FormHandler toggleHelpSection={toggleHelpSection} />
-        {showHelpSection && <HelpSection />}
+        <CSSTransition
+          in={showHelpSection}
+          timeout={300}
+          classNames="help-section"
+          unmountOnExit
+        >
+          <HelpSection />
+        </CSSTransition>
       </div>
     </div>
   );

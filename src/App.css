@@ -53,6 +53,25 @@ body {
   box-sizing: border-box;
 }
 
+.help-section-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+.help-section-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.help-section-exit {
+  opacity: 1;
+}
+.help-section-exit-active {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+
 .search-container {
   max-width: 75vh;
   margin: 0 auto;
