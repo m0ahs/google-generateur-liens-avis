@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+import QRCode from '..components/QRCode';
 
 const CopySuccessMessage = ({ show }) => {
   if (!show) return null;
@@ -144,11 +145,7 @@ const BusinessInfo = ({ business }) => {
           </div>
         </div>
         <div className="md:w-1/2 shadow-md shadow-zap-orange/25 mt-4 md:mt-0 md:ml-4">
-          <img
-            src="https://c.clc2l.com/c/screenshot/d/google-maps-transports-en-commun-6130c408a91b6040045698.jpg"
-            alt="Google Maps"
-            className="w-full h-96 object-cover rounded-md"
-          />
+          <QRCode url={`https://search.google.com/local/writereview?placeid=${business.place_id}`} />
         </div>
       </div>
     </div>
