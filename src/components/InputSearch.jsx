@@ -19,7 +19,7 @@ const InputSearch = ({ onSelect, searchTerm, setSearchTerm, showRemark }) => {
     <div className="relative search-container">
       <label
         htmlFor="searchInput"
-        className="block text-lg font-medium text-gray-700 mb-2"
+        className="block text-lg font-semibold text-gray-700 mb-2"
       >
         Obtenez votre lien d'évaluation Google
       </label>
@@ -36,8 +36,11 @@ const InputSearch = ({ onSelect, searchTerm, setSearchTerm, showRemark }) => {
       />
       {/* Affiche la remarque si showRemark est true */}
       {showRemark && (
-        <div className="mt-2 py-4 text-sm text-gray-600">
-          Vous ne trouvez pas votre entreprise ? <a href="#" className="text-lavender font-semibold hover:underline">Essayez ceci !</a>
+        <div className="mt-2 py-4 text-base text-gray-600">
+          Vous ne trouvez pas votre entreprise ?{" "}
+          <a href="#" className="text-lavender font-semibold hover:underline">
+            Essayez ceci !
+          </a>
         </div>
       )}
     </div>
