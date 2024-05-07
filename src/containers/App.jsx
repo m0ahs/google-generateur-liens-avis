@@ -8,15 +8,15 @@ import FormHandler from "/src/FormHandler.jsx";
 const App = () => {
   return (
     <div className="min-h-screen flex justify-center items-center bg-cream mt-8 mb-8">
-      <div className="text-center max-w-full px-4 sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto">
+      <div className="text-center px-4 sm:max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto">
         <h1
-          className="text-5xl sm font-bold mb-4"
+          className="text-5xl font-bold mb-4"
           style={{ fontFamily: "Degular", fontWeight: "bold" }}
         >
           Générateur de liens d'évaluations Google
         </h1>
         <p
-          className="mt-2 text-lg sm mb-6"
+          className="mt-2 text-lg mb-6"
           style={{ fontFamily: "Degular", fontStyle: "Regular" }}
         >
           Obtenez plus d'avis Google en Suisse Romande avec notre générateur de
