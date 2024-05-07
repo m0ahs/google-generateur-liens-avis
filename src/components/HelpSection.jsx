@@ -4,7 +4,7 @@ import React from "react";
 
 function HelpSection() {
   return (
-    <div className="bg-white p-6 rounded-sm shadow text-right">
+    <div className="bg-white p-6 rounded-sm shadow text-left">
       <h1 className="text-3xl font-bold mb-4">
         Si votre entreprise n'apparaît pas dans la boîte de recherche, vous avez
         probablement une adresse cachée !
@@ -16,6 +16,9 @@ function HelpSection() {
         <span className="font-bold">1.</span> Recherchez votre entreprise sur
         Google de manière à faire apparaître le panneau de connaissances de
         votre fiche. En général, [nom de l'entreprise] + [ville] font l'affaire.
+      </p>
+
+      <p className="text-gray-700 mb-4">
         <span className="font-bold">2.</span> Inspectez le bouton Écrire un
         avis. Pour ce faire, cliquez avec le bouton droit de la souris sur le
         bouton et choisissez l'option "inspecter" (nous utilisons ici Chrome -
