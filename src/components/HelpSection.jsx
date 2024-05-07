@@ -4,7 +4,7 @@ import React from "react";
 
 function HelpSection() {
   return (
-    <div className="bg-white p-6 rounded-sm shadow text-left">
+    <div className="bg-white p-6 rounded-sm shadow text-left max-w-lg mx-auto">
       <h1 className="text-3xl font-bold mb-4">
         Si votre entreprise n'apparaît pas dans la boîte de recherche, vous avez
         probablement une adresse cachée !
@@ -29,7 +29,7 @@ function HelpSection() {
       </p>
 
       <img
-        className="rounded-sm mb-4"
+        className="rounded-sm mb-4 max-w-xs mx-auto"
         src="https://wordpress.whitespark.ca/wp-content/uploads/2022/05/get-place-id-1.jpg"
         alt="Comment trouver l'identifiant Google Place de n'importe quel profil d'entreprise Google ?"
       />
@@ -41,7 +41,7 @@ function HelpSection() {
       </p>
 
       <img
-        className="rounded-sm mb-4"
+        className="rounded-sm mb-4 max-w-xs mx-auto"
         src="https://wordpress.whitespark.ca/wp-content/uploads/2022/05/get-place-id-2.jpg"
         alt="Comment trouver l'identifiant Google Place de n'importe quel profil d'entreprise Google ?"
       />
