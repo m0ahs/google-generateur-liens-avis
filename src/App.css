@@ -46,10 +46,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   height: 100%;
   padding: 2rem;
   box-sizing: border-box;
+  align-items: center;
 }
 
 .help-section-enter {

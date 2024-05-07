@@ -11,7 +11,7 @@ function App() {
   };
 
   return (
-    <div className="App h-full flex justify-center items-center bg-cream mt-8 mb-8">
+    <div className="h-full flex justify-center items-center App bg-cream mt-8 mb-8">
       <div className="text-center px-4 md:px-8 lg:px-12 xl:max-w-5xl mx-auto">
         <h1
           className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4"
