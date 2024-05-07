@@ -1,10 +1,10 @@
 // HelpSection.jsx
 
-import React from "react";
+import React from 'react';
 
 function HelpSection() {
   return (
-    <div className="bg-white p-6 sm:p-6 md:p-8 lg:p-10 rounded-sm shadow text-left mx-auto">
+    <div className="bg-white p-6 md:p-8 lg:p-12 helpSection rounded-sm shadow text-left max-w-3xl mx-auto">
       <h1 className="text-xl font-bold mb-4">
         Si votre entreprise n'apparaît pas dans la boîte de recherche, vous avez
         probablement une adresse cachée !
@@ -49,5 +49,4 @@ function HelpSection() {
     </div>
   );
 }
-
 export default HelpSection;
