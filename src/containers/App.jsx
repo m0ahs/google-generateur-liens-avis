@@ -13,7 +13,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen bg-cream my-4">
+    <div className="flex flex-col justify-center items-center min-h-screen bg-cream py-4">
       <div className="w-full max-w-5xl px-4 md:px-8 lg:px-12 mx-auto text-center overflow-hidden">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
           Générateur de liens d'évaluations Google
