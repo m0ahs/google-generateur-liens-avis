@@ -9,9 +9,9 @@ import HelpSection from "../components/HelpSection";
 const App = () => {
   return (
     <div className="min-h-screen flex justify-center items-center bg-cream mt-8 mb-8">
-      <div className="text-center px-8 sm:px-10 md:px-12 lg:max-w-3xl xl:max-w-4xl 2xl:max-w-5xl mx-auto">
+      <div className="text-center px-4 md:px-8 lg:px-12 xl:max-w-5xl mx-auto">
         <h1
-          className="text-5xl sm:text-2xl md:text-3xl lg:text-5xl font-bold mb-4"
+          className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4"
           style={{ fontFamily: "Degular", fontWeight: "bold" }}
         >
           Générateur de liens d'évaluations Google
