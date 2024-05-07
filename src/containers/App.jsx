@@ -33,7 +33,7 @@ function App() {
         <img src="../../arrow-trending-svgrepo-com.svg" 
           alt="Follow instructions"
           id="follow-instruction"
-          className="mx-auto my-4" />
+          className="mx-auto my-4 rotate-down" />
         <FormHandler toggleHelpSection={toggleHelpSection} />
         <CSSTransition
           in={showHelpSection}
