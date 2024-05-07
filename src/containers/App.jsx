@@ -31,7 +31,10 @@ function App() {
           <span className="font-semibold"> QR code</span> directement avec vos
           clients.
         </p>
-        <img src={arrowSVG} alt="Follow instructions" className="mx-auto my-4" style={{ maxWidth: '50px' }}/>
+        <img src={arrowSVG} 
+          alt="Follow instructions" 
+          className="mx-auto my-4" 
+          style={{ maxWidth: '50px' }}/>
         <FormHandler toggleHelpSection={toggleHelpSection} />
         <CSSTransition
           in={showHelpSection}
