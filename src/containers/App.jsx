@@ -10,16 +10,19 @@ const App = () => {
     <div className="min-h-screen flex justify-center items-center bg-cream mt-8 mb-8">
       <div className="text-center max-w-full px-4 sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto">
         <h1
-          className="text-4xl sm font-bold mb-4"
+          className="text-5xl sm font-bold mb-4"
           style={{ fontFamily: "Degular", fontWeight: "bold" }}
-        >Générateur de liens d'évaluations Google</h1>
+        >
+          Générateur de liens d'évaluations Google
+        </h1>
         <p
-          className="mt-2 text-base sm mb-6"
+          className="mt-2 text-lg sm mb-6"
           style={{ fontFamily: "Degular", fontStyle: "Regular" }}
         >
           Obtenez plus d'avis Google en Suisse Romande avec notre générateur de
-          lien d'évaluation gratuit. Partagez l'URL ou le QR code avec vos
-          clients.
+          lien d'évaluation gratuit. Partagez{" "}
+          <span className="font-semibold">l'URL</span> ou le
+          <span className="font-semibold">QR code</span> avec vos clients.
         </p>
         <FormHandler />
       </div>
