@@ -96,12 +96,7 @@ body {
 
 #follow-instruction {
   width: 100%;
-  max-width: 75px;
   margin: 50px auto;
-}
-
-.rotate-down {
   transform: rotate(90deg);
 }
-
 
