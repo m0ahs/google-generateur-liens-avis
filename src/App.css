@@ -88,7 +88,7 @@ body {
   margin: 0 auto;
 }
 
-google-review-image {
+#google-review-image {
   max-width: 100px;
   margin-bottom: 250px;
 }
