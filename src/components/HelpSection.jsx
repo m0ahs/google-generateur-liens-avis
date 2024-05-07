@@ -4,8 +4,8 @@ import React from "react";
 
 function HelpSection() {
   return (
-    <div className="bg-white p-12 rounded-sm shadow text-left max-w-2xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">
+    <div className="bg-white p-12 rounded-sm shadow text-left max-w-xl mx-auto">
+      <h1 className="text-xl font-bold mb-4">
         Si votre entreprise n'apparaît pas dans la boîte de recherche, vous avez
         probablement une adresse cachée !
       </h1>
