@@ -17,7 +17,7 @@ function App() {
           className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4"
           style={{ fontFamily: "Degular", fontWeight: "bold" }}
         >
-          Générateur de liens d'évaluations Google !
+          Générateur de liens d'évaluations Google
         </h1>
         <p
           className="mt-2 px-6 sm:px-6 md:px-10 lg:px-12 xl:px-14 2xl:px-16 text-lg mb-6"
