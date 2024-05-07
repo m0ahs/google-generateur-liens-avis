@@ -31,17 +31,20 @@ function App() {
           <span className="font-semibold"> QR code</span> directement avec vos
           clients.
         </p>
-        <FormHandler toggleHelpSection={toggleHelpSection} />
-        <CSSTransition
-          in={showHelpSection}
-          timeout={300}
-          classNames="help-section"
-          unmountOnExit
-        >
-          <HelpSection />
-        </CSSTransition>
+        <main className="min-h-[300px]">
+          <FormHandler toggleHelpSection={toggleHelpSection} />
+          <CSSTransition
+            in={showHelpSection}
+            timeout={300}
+            classNames="help-section"
+            unmountOnExit
+          >
+            <HelpSection />
+          </CSSTransition>
+        </main>
       </div>
     </div>
   );
 }
 export default App;
+
