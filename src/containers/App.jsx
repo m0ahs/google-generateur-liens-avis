@@ -8,14 +8,14 @@ import HelpSection from "../components/HelpSection";
 
 function App() {
   const [showHelpSection, setShowHelpSection] = useState(false);
-  
+
   const toggleHelpSection = () => {
     setShowHelpSection((prev) => !prev);
   };
 
   return (
-      <div className="w-full h-screen flex justify-center items-center bg-cream">
-      <div className="text-center px-4 md:px-8 lg:px-12 xl:max-w-5xl mx-auto">
+    <div className="w-screen h-screen flex flex-col justify-center items-center bg-cream">
+      <div className="text-center px-4 md:px-8 lg:px-12 xl:max-w-5xl mx-auto overflow-hidden">
         <h1
           className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4"
           style={{ fontFamily: "Degular", fontWeight: "bold" }}
@@ -32,19 +32,22 @@ function App() {
           <span className="font-semibold"> QR code</span> directement avec vos
           clients.
         </p>
-        <main className="min-h-[300px]">
-          <FormHandler toggleHelpSection={toggleHelpSection} />
+        <FormHandler toggleHelpSection={toggleHelpSection} />
+        <div className="relative" style={{ minHeight: "0px" }}>
           <CSSTransition
             in={showHelpSection}
             timeout={300}
             classNames="help-section"
             unmountOnExit
           >
-            <HelpSection />
+            <div className="absolute top-0 left-0 w-full">
+              <HelpSection />
+            </div>
           </CSSTransition>
-        </main>
+        </div>
       </div>
     </div>
   );
 }
+
 export default App;
