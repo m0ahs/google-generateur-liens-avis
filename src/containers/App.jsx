@@ -9,7 +9,7 @@ import HelpSection from "../components/HelpSection";
 const App = () => {
   return (
     <div className="min-h-screen flex justify-center items-center bg-cream mt-8 mb-8">
-      <div className="text-center px-6 sm:max-w-2xl md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto">
+      <div className="text-center px-8 sm:px-10 md:px-12 lg:max-w-3xl xl:max-w-4xl 2xl:max-w-5xl mx-auto">
         <h1
           className="text-5xl sm:text-2xl md:text-3xl lg:text-5xl font-bold mb-4"
           style={{ fontFamily: "Degular", fontWeight: "bold" }}
