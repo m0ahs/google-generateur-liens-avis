@@ -37,7 +37,7 @@ const InputSearch = ({ onSelect, searchTerm, setSearchTerm, showRemark }) => {
       {/* Affiche la remarque si showRemark est true */}
       {showRemark && (
         <div className="mt-2 py-4 text-sm text-gray-600">
-          Vous ne trouvez pas votre entreprise ? <a className="text-lavender font-semibold" href="#">Essayez ceci !</a>
+          Vous ne trouvez pas votre entreprise ? <a href="#" className="text-lavender font-semibold hover:underline">Essayez ceci !</a>
         </div>
       )}
     </div>
