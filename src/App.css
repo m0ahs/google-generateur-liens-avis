@@ -53,23 +53,29 @@ body {
   box-sizing: border-box;
 }
 
+.helSection {
+  margin-top: 25px;
+}
+
 .help-section-enter {
+  visibility: hidden;
   opacity: 0;
-  transform: translateY(20px);
 }
 .help-section-enter-active {
+  visibility: visible;
   opacity: 1;
-  transform: translateY(0);
-  transition: opacity 300ms, transform 300ms;
+  transition: opacity 300ms, visibility 0ms 300ms;
 }
 .help-section-exit {
+  visibility: visible;
   opacity: 1;
 }
 .help-section-exit-active {
+  visibility: hidden;
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 300ms, transform 300ms;
+  transition: opacity 300ms, visibility 0ms 300ms;
 }
+
 
 
 .search-container {
