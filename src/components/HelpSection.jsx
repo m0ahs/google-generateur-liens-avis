@@ -27,8 +27,8 @@ function HelpSection() {
 
       <img
         className="rounded-sm mb-4"
-        src="https://via.placeholder.com/600x400"
-        alt="Person"
+        src="https://wordpress.whitespark.ca/wp-content/uploads/2022/05/get-place-id-1.jpg"
+        alt="Comment trouver l'identifiant Google Place de n'importe quel profil d'entreprise Google ?"
       />
 
       <p className="text-gray-700 mb-4">
@@ -39,8 +39,8 @@ function HelpSection() {
 
       <img
         className="rounded-sm mb-4"
-        src="https://via.placeholder.com/600x400"
-        alt="Person"
+        src="https://wordpress.whitespark.ca/wp-content/uploads/2022/05/get-place-id-2.jpg"
+        alt="Comment trouver l'identifiant Google Place de n'importe quel profil d'entreprise Google ?"
       />
 
       <p className="text-gray-700 mb-4">
