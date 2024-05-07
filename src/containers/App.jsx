@@ -1,11 +1,14 @@
 // App.jsx
+
 import React, { useState } from "react";
 import { CSSTransition } from "react-transition-group";
 import "../App.css";
 import FormHandler from "../FormHandler";
 import HelpSection from "../components/HelpSection";
+
 function App() {
   const [showHelpSection, setShowHelpSection] = useState(false);
+  
   const toggleHelpSection = () => {
     setShowHelpSection((prev) => !prev);
   };

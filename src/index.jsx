@@ -3,12 +3,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './containers/App';
+import Container from './components/Container';
 import '/src/App.css'
 
-// Crée un root ReactDOM et rend l'application dedans.
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<React.StrictMode>
-<App />
-</React.StrictMode>
+  <React.StrictMode>
+    <Container>
+      <App />
+    </Container>
+  </React.StrictMode>
 );
