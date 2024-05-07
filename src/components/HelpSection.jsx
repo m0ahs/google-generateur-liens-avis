@@ -28,7 +28,7 @@ function HelpSection() {
         Incognito ou un autre navigateur, ou déconnectez-vous.
       </p>
       <img
-        className="rounded-sm mb-4 mx-auto max-w-xs md:max-w-sm lg:max-w-md"
+        className="rounded-sm mb-4 mx-auto max-w-lg md:max-w-xl lg:max-w-2xl"
         src="https://wordpress.whitespark.ca/wp-content/uploads/2022/05/get-place-id-1.jpg"
         alt="Comment trouver l'identifiant Google Place de n'importe quel profil d'entreprise Google ?"
       />
@@ -38,7 +38,7 @@ function HelpSection() {
         sur Cmd+F (Mac) ou Ctrl+F (Win).
       </p>
       <img
-        className="rounded-sm mb-4 mx-auto max-w-xs md:max-w-sm lg:max-w-md"
+        className="rounded-sm mb-4 mx-auto max-w-lg md:max-w-xl lg:max-w-2xl"
         src="https://wordpress.whitespark.ca/wp-content/uploads/2022/05/get-place-id-2.jpg"
         alt="Comment trouver l'identifiant Google Place de n'importe quel profil d'entreprise Google ?"
       />
