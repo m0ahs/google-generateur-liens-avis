@@ -34,7 +34,8 @@ function App() {
       </p>
       <FormHandler toggleHelpSection={toggleHelpSection} />
       <div
-        className={`scrollable-container ${showHelpSection ? "max-h-screen" : "max-h-0"}`}
+        className="transition-opacity duration-300 overflow-hidden"
+        style={{ maxHeight: showHelpSection ? "1000px" : "0" }}
       >
         <CSSTransition
           in={showHelpSection}
