@@ -13,7 +13,6 @@ const CopySuccessMessage = ({ show }) => {
 const BusinessInfo = ({ business }) => {
   const [copied1, setCopied1] = useState(false);
   const [copied2, setCopied2] = useState(false);
-  const [copied3, setCopied3] = useState(false);
 
   if (!business) return null;
 
@@ -28,13 +27,6 @@ const BusinessInfo = ({ business }) => {
     setCopied2(true);
     setTimeout(() => {
       setCopied2(false);
-    }, 500);
-  };
-
-  const handleCopy3 = () => {
-    setCopied3(true);
-    setTimeout(() => {
-      setCopied3(false);
     }, 500);
   };
 
@@ -84,7 +76,7 @@ const BusinessInfo = ({ business }) => {
             </div>
             <div>
               <p className="font-medium text-gray-600">
-                Obtenir plus de commentaires
+                Obtenir plus d'avis
               </p>
               <div className="relative flex items-center">
                 <input
@@ -110,36 +102,6 @@ const BusinessInfo = ({ business }) => {
                   </button>
                 </CopyToClipboard>
                 <CopySuccessMessage show={copied2} />
-              </div>
-            </div>
-            <div>
-              <p className="font-medium text-gray-600">
-                Voir la Google Business Profile dans le SERP
-              </p>
-              <div className="relative flex items-center">
-                <input
-                  type="text"
-                  value={`https://local.google.com/place?id=${business.place_id}&use=srp&hl=en`}
-                  readOnly
-                  onSelectStart={preventSelect}
-                  className="w-full px-2 py-1 bg-gray-100 border border-gray-300 rounded focus:outline-none"
-                />
-                <CopyToClipboard
-                  text={`https://local.google.com/place?id=${business.place_id}&use=srp&hl=en`}
-                  onCopy={handleCopy3}
-                >
-                  <button className="absolute right-2 top-1/2 transform -translate-y-1/2 px-2 py-1 bg-zap-orange text-white rounded hover:bg-orange-600 focus:outline-none">
-                    <svg
-                      className="h-4 w-4 fill-current"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
-                      <rect x="8" y="2" width="8" height="4" rx="1" ry="1" />
-                    </svg>
-                  </button>
-                </CopyToClipboard>
-                <CopySuccessMessage show={copied3} />
               </div>
             </div>
           </div>
