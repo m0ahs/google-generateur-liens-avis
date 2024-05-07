@@ -10,7 +10,7 @@ const Results = ({ results, onBusinessSelect, setBusinessNameAndAddress }) => {
         <div key={index}>
           <button
             type="button"
-            className="py-2 px-4 w-full text-sm text-earth cursor-pointer hover:bg-lavender rounded-lg focus:outline-none"
+            className="py-2 px-4 w-full text-sm text-earth cursor-pointer hover:bg-lavender/50 rounded-lg focus:outline-none"
             onClick={() => {
               onBusinessSelect(item);
               setBusinessNameAndAddress(`${item.name} ${item.address}`);
