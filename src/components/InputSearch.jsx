@@ -41,7 +41,7 @@ const InputSearch = ({
         <div className="mt-2 py-4 text-base text-gray-600">
           Vous ne trouvez pas votre entreprise ?{" "}
           <a
-            href="#"
+            href=""
             className="text-lavender font-semibold hover:underline"
             onClick={handleToggleClick}
           >

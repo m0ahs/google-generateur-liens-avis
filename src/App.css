@@ -57,28 +57,24 @@ body {
   margin-top: 25px;
 }
 
-.help-section-container {
-  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-}
-
 .help-section-enter {
   opacity: 0;
-  visibility: hidden;
+  transform: scale(0.95);
 }
 .help-section-enter-active {
   opacity: 1;
-  visibility: visible;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
 }
 .help-section-exit {
   opacity: 1;
-  visibility: visible;
+  transform: scale(1);
 }
 .help-section-exit-active {
   opacity: 0;
-  visibility: hidden;
+  transform: scale(0.95);
+  transition: opacity 300ms, transform 300ms;
 }
-
-
 
 .search-container {
   max-width: 75vh;
