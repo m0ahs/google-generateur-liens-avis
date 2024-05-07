@@ -4,7 +4,6 @@ import { CSSTransition } from "react-transition-group";
 import "../App.css";
 import FormHandler from "../FormHandler";
 import HelpSection from "../components/HelpSection";
-import arrowSVG from '../../arrow-trending-svgrepo-com.svg';
 
 function App() {
   const [showHelpSection, setShowHelpSection] = useState(false);
@@ -31,7 +30,7 @@ function App() {
           <span className="font-semibold"> QR code</span> directement avec vos
           clients.
         </p>
-        <img src={arrowSVG} 
+        <img src="../../arrow-trending-svgrepo-com.svg" 
           alt="Follow instructions" 
           className="mx-auto my-4" 
           style={{ maxWidth: '50px' }}/>
