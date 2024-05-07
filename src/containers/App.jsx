@@ -1,8 +1,8 @@
 // App.jsx
 import React from "react";
-import "/src/App.css";
-import FormHandler from "/src/FormHandler";
-import HelpSection from './components/HelpSection'
+import "../App.css";
+import FormHandler from "../FormHandler";
+import HelpSection from "../components/HelpSection";
 
 // Le composant principal de l'application.
 // Affiche le titre, la description et le formulaire de recherche.
