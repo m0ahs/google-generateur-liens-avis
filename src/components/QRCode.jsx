@@ -23,7 +23,7 @@ const QRCode = ({ data }) => {
     }, [data]);
 
     return (
-        <img src={`data:image/png;base64,${qrCode}`} alt="QR Code" />
+        <img src={`data:image/png;base64,${qrCode}`} alt="QR Code" width="300" height="300" />
     );
 };
 
