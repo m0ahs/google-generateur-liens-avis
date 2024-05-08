@@ -28,3 +28,5 @@ const QRCode = ({ url }) => {
         <img src={qrCode} alt="QR Code" />
     );
 };
+
+export default QRCode;
