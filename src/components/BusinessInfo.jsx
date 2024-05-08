@@ -75,7 +75,6 @@ const BusinessInfo = ({ business }) => {
               </div>
             </div>
             <br />
-            <br />
             <div>
               <p className="font-medium text-gray-600">
                 Obtenir plus d'avis
