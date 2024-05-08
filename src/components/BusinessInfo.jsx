@@ -42,7 +42,7 @@ const BusinessInfo = ({ business }) => {
             Liens utiles Google Business Profile pour:{" "}
             <span className="text-zap-orange">{business.name}</span>
           </h3>
-          <p className="text-sm mb-4 text-lavender">{business.address}</p>
+          <p className="text-sm mb-4 text-earth">{business.address}</p>
           <div className="space-y-2">
             <div>
               <p className="font-medium text-gray-600">
@@ -74,6 +74,8 @@ const BusinessInfo = ({ business }) => {
                 <CopySuccessMessage show={copied1} />
               </div>
             </div>
+            <br />
+            <br />
             <div>
               <p className="font-medium text-gray-600">
                 Obtenir plus d'avis
