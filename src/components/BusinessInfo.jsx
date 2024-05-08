@@ -37,7 +37,7 @@ const BusinessInfo = ({ business }) => {
   return (
     <div className="flex justify-center items-center overflow-y-auto">
       <div className="flex flex-col md:flex-row business-info-container max-w-2xl">
-        <div className="md:w-1/2 text-left p-4 bg-white rounded-md shadow-md shadow-zap-orange/25 overflow-x-auto">
+        <div className="md:w-1/2 text-left p-4 bg-white rounded-md shadow-md shadow-zap-orange/15 overflow-x-auto">
           <h3 className="text-lg font-medium mb-2">
             Liens utiles Google Business Profile pour:{" "}
             <span className="text-zap-orange">{business.name}</span>
