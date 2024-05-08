@@ -88,15 +88,17 @@ body {
   margin: 0 auto;
 }
 
-.logo-container {
+.logo-wrapper {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem; /* Ajoutez ceci pour ajouter un peu d'espace sous le logo */
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 #google-review-image {
   width: 100%;
-  max-width: 300px; /* Vous pouvez ajuster cette valeur selon vos besoins */
+  max-width: 276px;
+  height: auto;
 }
 
 #follow-instruction {
