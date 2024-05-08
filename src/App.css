@@ -82,7 +82,7 @@ body {
 }
 
 .business-info-container {
-  min-width: 60vw;
+  width: 100%;
   max-width: 100%;
   height: 100%;
   margin: 0 auto;
