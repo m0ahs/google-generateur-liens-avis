@@ -106,7 +106,7 @@ const BusinessInfo = ({ business }) => {
             </div>
           </div>
         </div>
-        <div className="md:w-1/2 shadow-md shadow-zap-orange/25 mt-4 md:mt-0 md:ml-4">
+        <div className="md:w-1/2 shadow-none mt-4 md:mt-0 md:ml-4">
           <QRCode data={`https://search.google.com/local/writereview?placeid=${business.place_id}`} />
         </div>
       </div>
