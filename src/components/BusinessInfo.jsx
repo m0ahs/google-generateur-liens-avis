@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import QRCode from '..components/QRCode';
+import QRCode from '../components/QRCode';
 
 const CopySuccessMessage = ({ show }) => {
   if (!show) return null;
